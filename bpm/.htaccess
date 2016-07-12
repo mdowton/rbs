@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bpm\.roofandbuildingservice\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bpm\.roofandbuildingservice\.com\.au$
+RewriteRule ^/?$ "http\:\/\/bigbangsolutions\.com\.au\/roof\/" [R=301,L]
+

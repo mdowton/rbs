@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/* 
+
+Created for: Energen Solutions
+Author: Crockford Carlisle
+
+*/
+
+
+
+body  {
+	font: 85% Verdana, Geneva, sans-serif;
+	background: #FFF;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000;
+	width:100%;
+	height:100%;
+}
+
+h1 { color: #B72123; }
+
+
+a:link {
+	color: #333;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: underline;
+
+}
+a:active {
+	color: #333;
+	text-decoration: underline;
+}
+a:hover {
+	color: #003768;
+	text-decoration: underline;
+}
+
+#container {
+	width: 900px;  
+	margin:auto;
+	text-align: left;
+} 
+
+#content { width:700px; margin:auto; }
+
+td {padding:6px;}
+
+/* FOOTER */
+
+#footer { 
+	width:100%;
+	clear:both;
+	height: 150px;
+	padding: 25px 30px 10px 20px;
+	background: #DFE2E6;
+	display: block;
+	color: #666;
+	border-top: 4px solid #FFF; 
+} 
+#footer p {
+	font: 85% Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 7px 0px; 
+	line-height: 1.3;
+}
+
+#footercolourbar {
+	height: 5px; 
+	width: 1050px;
+	background: #8CC63F;
+	font-size: 1px;
+}
+
+#footer a {
+	color: #666;
+}
+
+#footer img {
+	border: 0px;
+	text-decoration: none;
+}
+
+
+/* FORM */
+#contactform {
+	font: 95% Verdana, Geneva, sans-serif;
+	background: #EAEAEA;
+	color: #333;
+	width: 370px;
+	line-height: 1.5;
+	margin: 0px 0px 15px 40px;
+	padding: 2px 15px 15px 15px;
+	float: right;
+}
+
+#contactform h2 {
+	font: 120% Verdana, Geneva, sans-serif;
+	color: #004881; 
+	padding: 0px;
+	margin: 10px 0px 2px 0px;
+}
+#contactform h3 {
+	font: 100% Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #333; 
+	margin: 1px 0px 0px 0px;
+}
+#contactform .textbox {
+	background: #FFF;
+	border: 0px solid #999;
+	font-size: 11px;
+	color: #333;
+	height: 18px;
+}
+#contactform .popup {
+	font: 85% Verdana, Geneva, sans-serif;
+	color: black;
+}
+/* start form 2 */
+#contactform2 {
+	font: 95% Verdana, Geneva, sans-serif;
+	background: #EAEAEA;
+	color: #333;
+	line-height: 1.6;
+	margin: 0px 0px 15px 10px;
+	padding: 2px 15px 15px 15px;
+}
+
+#contactform2 h2 {
+	font: 120% Verdana, Geneva, sans-serif;
+	color: #004881; 
+	padding: 0px;
+	margin: 10px 0px 2px 0px;
+}
+#contactform2 h3 {
+	font: 100% Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #333; 
+	margin: 1px 0px 0px 0px;
+}
+#contactform2 .textbox {
+	background: #FFF;
+	border: 0px solid #999;
+	font-size: 11px;
+	color: #333;
+	height: 18px;
+}
+#contactform2 .popup {
+	font: 85% Verdana, Geneva, sans-serif;
+	color: black;
+}
+/* end form 2 */
+.error-box {
+	font: 85% Verdana, Geneva, sans-serif;
+	margin: 0 0px 20px 0px;
+	padding: 7px;
+	background-color: #EAEAEA;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	color: red;
+	font-weight: bold;
+	text-align: left;
+}
+.error-box h4 {
+	display: block;
+	margin: 0;
+	font-size: 16px;
+	color: #333333;
+}
+

@@ -1,0 +1,161 @@
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+
+.qmmc .qmdivider{
+display:block;
+font-size:1px;
+border-width:0px;
+border-style:solid;}
+
+.qmmc .qmdividery{
+float:left;
+width:0px;}
+
+.qmmc .qmtitle{
+display:block;
+cursor:default;
+white-space:nowrap;}
+
+.qmclear {
+font-size:1px;
+height:0px;
+width:0px;
+clear:left;
+line-height:0px;
+display:block;}
+
+.qmmc {
+	position:relative;
+	height:1%;
+
+}
+	
+.qmmc a, .qmmc li {float:left;display:block;white-space:nowrap;}.qmmc div a, .qmmc ul a, .qmmc ul li {float:none;}.qmsh div a {float:left;}.qmmc div{visibility:hidden;position:absolute;}.qmmc ul {
+	left:-10000px;
+	position:absolute;
+	margin-left: 10px;
+}.qmmc, .qmmc ul {list-style:none;padding:0px;margin:0px;}.qmmc li a {float:none}.qmmc li{position:relative;}.qmmc ul {z-index:10;}.qmmc ul ul {z-index:20;}.qmmc ul ul ul {z-index:30;}.qmmc ul ul ul ul {z-index:40;}.qmmc ul ul ul ul ul {z-index:50;}li:hover>ul{left:auto;}#qm0 ul {top:100%;}#qm0 ul li:hover>ul{top:0px;left:100%;}
+
+/*!!!!!!!!!!! QuickMenu Styles [Please Modify!] !!!!!!!!!!!*/
+
+
+
+	/* QuickMenu 0 */
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight: bold;
+	text-decoration:none;
+	padding:15px 20px;
+	margin: 0px;
+	line-height: 16px;
+	}
+		#qm0 a span
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+	}
+		#qm0 a:hover	
+	{
+	color:#769dc5;
+	background-image: url(../images/left_both.gif);
+	background-repeat: no-repeat;
+	background-position:0% -150px;
+	}
+		#qm0 a:hover span	
+	{
+	background-image: url(../images/right_both.gif);
+	background-repeat: no-repeat;
+	background-position:100% -150px;	
+	}
+
+	/*"""""""" Dropdown Container  """"""""*/	
+	#qm0 div, #qm0 ul	
+	{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	background-color:#000;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	}
+
+
+	/*"""""""" Dropdown Container Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{
+	font-weight: normal;
+	font-size:12px;
+	padding:7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #fff;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	text-align: left;
+	}
+	
+	/*"""""""" Dropdown Container Items Span""""""""*/	
+	#qm0 div a span, #qm0 ul a span
+	{
+
+	text-decoration:none;
+	background-image: url(none);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+	}
+
+
+	/*"""""""" Dropdown Container Hover State""""""""*/	
+	#qm0 div a:hover, #qm0 ul a:hover	
+	{
+	color:#000;
+	background-color: #FDB813;
+	text-decoration:none;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	}
+	
+	/*"""""""" Dropdown Container Hover State Span""""""""*/	
+	#qm0 div a:hover span, #qm0 ul a:hover span
+	{
+	margin: 0px;
+	}
+
+	
+	/*"""""""" Custom Rules """"""""*/	
+
+
+ul#qm0 ul {
+		border-color:#939393;
+		border-style:solid;
+		border-width:2px;	
+		background-color:#161616;
+		border-top-style: none;
+	}
+
+#qm0 .qmactive {
+	color:#fff;
+	background-image: url(../images/left_both.gif);
+	background-repeat: no-repeat;
+	background-position:0% -150px;
+	
+	}
+#qm0 .qmactive span {
+
+	}

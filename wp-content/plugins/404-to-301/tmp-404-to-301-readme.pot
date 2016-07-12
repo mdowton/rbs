@@ -1,0 +1,364 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "404 to 301"
+msgstr ""
+
+#. Short description.
+msgid "Automatically redirect, log and notify all 404 page errors to any page using 301 redirect for SEO. No more 404 Errors in WebMaster tool."
+msgstr ""
+
+#. Screenshot description.
+msgid "<strong>Settings</strong> - Settings page of 404 to 301."
+msgstr ""
+
+#. Screenshot description.
+msgid "<strong>Error Logs</strong> - Logged 404 Errors."
+msgstr ""
+
+#. Found in description header.
+msgid "What is 404 to 301?"
+msgstr ""
+
+#. Found in description header.
+msgid "404 to 301 - Features"
+msgstr ""
+
+#. Found in description list item.
+msgid "You can redirect errors to any existing page or custom link.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "No more 404 errors in your website. Seriously!<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Translation ready!</strong><br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "You can optionally monitor/log all errors.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Exclude paths from errors.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "You can optionally enable email notification on all 404 errors.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "You can choose which redirect method to be used (301,302,307).<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Will not irritate your visitors if they land on a non-existing page/url.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Super Light weight.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Increase your SEO by telling Google that all 404 pages are moved to some other page.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Completely free to use with lifetime updates.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Developer friendly.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Follows best WordPress coding standards.<br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "Of course, available in <a href=\"https://github.com/joel-james/404-to-301\">GitHub</a><br />"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://iscode.co/products/404-to-301/\">404 to 301 - Plugin Homepage</a>, containing more details and docs."
+msgstr ""
+
+#. Found in description list item.
+msgid "Follow the developer <a href=\"https://twitter.com/Joel_James\">@Twitter</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Other <a href=\"https://profiles.wordpress.org/joelcj91/#content-plugins\">WordPress plugins</a> by <a href=\"https://iscode.co/\">Joel James for is_code()</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you care about your website, you should take steps to avoid 404 errors as it affects your SEO badly. 404 ( Page not found ) errors are common and we all hate it, even Search engines do the same! Install this plugin then sit back and relax. It will take care of 404 errors!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Handling 404 errors in your site should be easy. With this plugin, it finally is.</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"404 to 301 is a simple but amazing plugin which handles all 404 errors for you. It will redirect all 404 errors to any page that you set, using 301 (or any other) status. That means no more 404 errors! Even in Google webmaster tool you are safe!\n"
+"You will not see any 404 error reports in your webmaster tool dashboard."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://wordpress.org/plugins/404-to-301/installation/\">Installation</a> | <a href=\"http://iscode.co/docs/category/404-to-301/\">Docs</a> | <a href=\"https://wordpress.org/plugins/404-to-301/screenshots/\">Screenshots</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Bug Reports</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Bug reports for 404 to 301 are always welcome. <a href=\"https://iscode.co/bug-report/\">Report here</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>More information</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>404 Errors and Redirect - More Details</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you are confused with these terms 404,301, redirect etc, <a href=\"https://moz.com/learn/seo/redirection/\">refer this page</a> to know more about the redirect and SEO."
+msgstr ""
+
+#. Found in installation header.
+msgid "Installing the plugin - Simple"
+msgstr ""
+
+#. Found in installation header.
+msgid "Need more help?"
+msgstr ""
+
+#. Found in installation header.
+msgid "Missing something?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "In your WordPress admin panel, go to <em>Plugins &gt; New Plugin</em>, search for <strong>404 to 301</strong> and click \"<em>Install now</em>\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Alternatively, download the plugin and upload the contents of <code>404-to-301.zip</code> to your plugins directory, which usually is <code>/wp-content/plugins/</code>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to 404 to 301 tab on your admin menus."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Configure the plugin options with available settings."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Please take a look at the <a href=\"http://iscode.co/docs/category/404-to-301/\">plugin documentation</a> or <a href=\"http://wordpress.org/support/plugin/404-to-301/\">open a support request</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If you would like to have an additional feature for this plugin, <a href=\"http://iscode.co/support/\">let me know</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue - Empty needle issue after 2.0.8 update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option to exclude paths from error logs and redirect - <a href=\"https://iscode.co/docs/excluding-paths-from-error-logs-and-redirects/\">See details</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue - Email notifications are being sent even after disabling it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue - Settings reset after reactivation of plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option to change error notification email address."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now <strong>100% Translation ready</strong>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor code improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduced new website for the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed few dead link issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to avoid search engine crawlers/bots from logging errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed error log per page issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue where error log table is not being created."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a serious issue which may cause SQL injection attack."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue with https redirect."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue with url preg_match."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now you can log/monitor all 404 errors (optional)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can get email notifications on 404 errors (optional)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can select existing pages from dropdown to set as redirect page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New plugin home page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgraded to WordPress plugin coding standard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Documented all functions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Very minor bug fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested for WP 4.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed options saving issue in admin page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved performance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with latest version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved structure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed permission issue on redirect link on plugin activation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed permission issue on activating along with some security plugins like WordFence."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added official support forum."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added official website details."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added first version with basic options."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Bug Fixes</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>New Feature</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Improvements</strong>"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the use of 404 to 301?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I monitor 404 errors?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I clear logs?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I get email notifications?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I need more details"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It will increase your SEO by redirecting all 404 errors using SEO redirects."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. You can. If you enable logs from settings, it will list all the errors."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Select 'clear logs' from bulk actions and submit. It will delete all log data from your db."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. You can enable email notifications on each 404 errors (optional)."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Other Notes"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Bug Reports"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Bug reports for 404 to 301 are always welcome. <a href=\"http://iscode.co/bug-report/\">Report here</a>."
+msgstr ""

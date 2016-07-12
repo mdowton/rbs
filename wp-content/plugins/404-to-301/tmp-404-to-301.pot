@@ -1,0 +1,437 @@
+# Copyright (C) 2015 404 to 301
+# This file is distributed under the same license as the 404 to 301 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 404 to 301 2.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/404-to-301\n"
+"POT-Creation-Date: 2015-11-02 17:34:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-404-to-301-admin.php:164 admin/class-404-to-301-admin.php:165
+#: admin/class-404-to-301-admin.php:197
+msgid "404 Error Logs"
+msgstr ""
+
+#: admin/class-404-to-301-admin.php:176
+msgid "404 to 301 Settings"
+msgstr ""
+
+#. #-#-#-#-#  tmp-404-to-301.pot (404 to 301 2.0.9)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-404-to-301-admin.php:215
+#: admin/partials/404-to-301-admin-credits-tab.php:47
+msgid "404 to 301"
+msgstr ""
+
+#: admin/class-404-to-301-admin.php:267
+msgid "Thank you for choosing 404 to 301 to improve your website"
+msgstr ""
+
+#: admin/class-404-to-301-admin.php:269
+msgid "Kindly give this plugin a"
+msgstr ""
+
+#: admin/class-404-to-301-admin.php:271
+msgid "rating"
+msgstr ""
+
+#: admin/class-404-to-301-admin.php:292
+#: admin/partials/404-to-301-admin-display.php:27
+msgid "Settings"
+msgstr ""
+
+#: admin/class-404-to-301-admin.php:293
+msgid "Logs"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:65
+msgid "i4t3_log"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:66
+msgid "i4t3_logs"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:149
+msgid "Ulta pulta..! Seems like you had no errors to log."
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:213
+msgid "Date and Time"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:214 public/class-404-to-301-public.php:88
+msgid "404 Path"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:215
+msgid "Came From"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:216 public/class-404-to-301-public.php:84
+msgid "IP Address"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:217 public/class-404-to-301-public.php:92
+msgid "User Agent"
+msgstr ""
+
+#: admin/class-404-to-301-logs.php:237
+msgid "Clear Logs"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:144
+msgid "List View"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:145
+msgid "Excerpt View"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:312
+msgid "No items found."
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:438
+msgid "Select bulk action"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:440
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:450
+msgid "Apply"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:550
+msgid "Filter by date"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:552
+msgid "All dates"
+msgstr ""
+
+#. translators: 1: month name, 2: 4-digit year
+#: admin/core/class-wp-list-table.php:565
+msgid "%1$s %2$d"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:612
+msgid "%s pending"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:691
+#: admin/core/class-wp-list-table.php:1115
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/core/class-wp-list-table.php:710
+msgid "Go to the first page"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:717
+msgid "Go to the previous page"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:726
+msgid "Select Page"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:727
+msgid "Current page"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:733
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:737
+msgid "Go to the next page"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:744
+msgid "Go to the last page"
+msgstr ""
+
+#: admin/core/class-wp-list-table.php:881
+msgid "Select All"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:7
+msgid "About the plugin & developer"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:15
+msgid "Thank you for using 404 to 301"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:17
+msgid "This plugin is brought to you by"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:17
+#: admin/partials/404-to-301-admin-credits-tab.php:54
+msgid "Visit author website"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:17
+msgid "a web store developed and managed by Joel James."
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:23
+msgid "So you installed this plugin and how is it doing? Feel free to"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:23
+msgid "Contact the developer"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:23
+msgid "get in touch with me"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:23
+msgid "anytime for help. I am always happy to help."
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:30
+msgid "Debugging Data"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:43
+msgid "Plugin Information"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:46
+msgid "Name"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:50
+msgid "Version"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:54
+msgid "Author"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:58
+#: admin/partials/404-to-301-admin-credits-tab.php:62
+msgid "Visit plugin website"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:58
+msgid "Plugin documentation"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:62
+msgid "More plugin details"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:66
+msgid "Need help?"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:67
+msgid "contact support"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:72
+msgid "Like the plugin"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:75
+msgid "Rate now"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:75
+msgid "Rate this on WordPress"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:78
+msgid "Donate now"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:78
+msgid "Make a small donation"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:81
+msgid "Contribute now"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:81
+msgid "Contribute to the Plugin"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:84
+msgid "Tweet now"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-credits-tab.php:84
+msgid "Tweet about the Plugin"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-display.php:30
+msgid "settings updated successfully"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-display.php:34
+msgid "General"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-display.php:35
+msgid "Help & Info"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:27
+msgid "Redirect type"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:30
+msgid "Redirect (SEO)"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:31
+#: admin/partials/404-to-301-admin-general-tab.php:32
+msgid "Redirect"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:34
+msgid "Learn more"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:34
+msgid "about these redirect types"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:38
+msgid "Redirect to"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:41
+#: admin/partials/404-to-301-admin-general-tab.php:45
+msgid "Existing Page"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:42
+#: admin/partials/404-to-301-admin-general-tab.php:46
+#: admin/partials/404-to-301-admin-general-tab.php:62
+msgid "Custom URL"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:43
+#: admin/partials/404-to-301-admin-general-tab.php:47
+msgid "No Redirect"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:45
+msgid "Select any WordPress page as a 404 page"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:46
+msgid "Redirect 404 requests to a specific URL"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:47
+msgid "To disable redirect"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:51
+msgid "Select the page"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:58
+msgid ""
+"The default 404 page will be replaced by the page you choose in this list"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:65
+msgid "Enter any url"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:65
+msgid "including"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:69
+msgid "Log 404 Errors"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:72
+msgid "Enable Error Logs"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:73
+msgid "Disable Error Logs"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:75
+msgid "Enable/Disable Logging"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:79
+msgid "Email notifications"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:83
+msgid ""
+"If you check this, an email will be sent on every 404 log on the admin email "
+"account"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:87
+msgid "Email address"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:91
+msgid "Change the recipient email address for error log notifications"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:95
+msgid "Exclude paths"
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:98
+msgid ""
+"If you want to exclude few paths from error logs, enter here. One per line."
+msgstr ""
+
+#: admin/partials/404-to-301-admin-general-tab.php:103
+msgid "Save All Changes"
+msgstr ""
+
+#: public/class-404-to-301-public.php:81
+msgid "Bummer! You have one more 404"
+msgstr ""
+
+#: public/class-404-to-301-public.php:98
+msgid "Snap! One more 404 on "
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://iscode.co/products/404-to-301/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically redirect all <strong>404 errors</strong> to any page using "
+"<strong>301 redirect for SEO</strong>. You can <strong>redirect and log</"
+"strong> every 404 errors. No more 404 errors in Webmaster tool."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Joel James"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://iscode.co/"
+msgstr ""
