@@ -4006,13 +4006,11 @@ html.touch body.fixed-layout.mfp-zoom-out-cur .fixed-header-box {
   color: #2B2F34;
 }
 .header-content-wrapper {
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: scroll;
+  background: url(http://rbs:8888/wp-content/uploads/2016/07/top-bar_02.png) no-repeat center top scroll;
   background-color: #ffffff;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
   margin-top: 0;
   transition: background .3s ease;
 }
@@ -4032,13 +4030,11 @@ body.sticky-header-type-over.sticky-header.wpv-scrolled header.main-header,
 body.sticky-header-type-half-over.sticky-header.wpv-scrolled header.main-header,
 body:not(.sticky-header-type-half-over):not(.sticky-header) header.main-header,
 body.sticky-header-type-half-over header.main-header .first-row {
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: scroll;
+  background: url(http://rbs:8888/wp-content/uploads/2016/07/top-bar_02.png) no-repeat center top scroll;
   background-color: #ffffff;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 body.sticky-header-type-over.sticky-header.wpv-scrolled header.main-header.layout-standard .second-row,
 body.sticky-header-type-over.sticky-header.wpv-scrolled header.main-header.layout-logo-text-menu .second-row,
@@ -5725,8 +5721,8 @@ footer.main-footer input[type=number],
 footer.main-footer input[type=button],
 footer.main-footer textarea,
 footer.main-footer select {
-  background-color: #04458b;
-  color: #92c5fc;
+  background-color: #ffffff;
+  color: #808080;
 }
 footer.main-footer input[type=text]::-webkit-input-placeholder,
 footer.main-footer input[type=tel]::-webkit-input-placeholder,
@@ -5740,7 +5736,7 @@ footer.main-footer input[type=number]::-webkit-input-placeholder,
 footer.main-footer input[type=button]::-webkit-input-placeholder,
 footer.main-footer textarea::-webkit-input-placeholder,
 footer.main-footer select::-webkit-input-placeholder {
-  color: #2f90f9;
+  color: #b3b3b3;
 }
 footer.main-footer input[type=text]:-moz-placeholder,
 footer.main-footer input[type=tel]:-moz-placeholder,
@@ -5754,7 +5750,7 @@ footer.main-footer input[type=number]:-moz-placeholder,
 footer.main-footer input[type=button]:-moz-placeholder,
 footer.main-footer textarea:-moz-placeholder,
 footer.main-footer select:-moz-placeholder {
-  color: #2f90f9;
+  color: #b3b3b3;
 }
 footer.main-footer input[type=text]::-moz-placeholder,
 footer.main-footer input[type=tel]::-moz-placeholder,
@@ -5768,7 +5764,7 @@ footer.main-footer input[type=number]::-moz-placeholder,
 footer.main-footer input[type=button]::-moz-placeholder,
 footer.main-footer textarea::-moz-placeholder,
 footer.main-footer select::-moz-placeholder {
-  color: #2f90f9;
+  color: #b3b3b3;
 }
 footer.main-footer input[type=text]:-ms-input-placeholder,
 footer.main-footer input[type=tel]:-ms-input-placeholder,
@@ -5782,7 +5778,7 @@ footer.main-footer input[type=number]:-ms-input-placeholder,
 footer.main-footer input[type=button]:-ms-input-placeholder,
 footer.main-footer textarea:-ms-input-placeholder,
 footer.main-footer select:-ms-input-placeholder {
-  color: #2f90f9;
+  color: #b3b3b3;
 }
 .fixed-header-box input[type=text],
 .fixed-header-box input[type=tel],
@@ -10225,10 +10221,10 @@ footer.main-footer {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-attachment: scroll;
-  background-color: #033163;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: auto;
+  background-color: #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 footer.main-footer div.wpcf7 input,
 footer.main-footer div.wpcf7 textarea,
@@ -10429,8 +10425,8 @@ footer.main-footer a:hover .icon.shortcode {
   padding-top: 0;
 }
 #footer-sidebars .wpv_posts .wpv-tabs > ul {
-  border-bottom-color: #02254a;
-  background-color: #033163;
+  border-bottom-color: #f2f2f2;
+  background-color: #ffffff;
 }
 #footer-sidebars .wpv_posts .wpv-tabs > ul li {
   border-bottom: 1px solid transparent !important;
@@ -10438,25 +10434,25 @@ footer.main-footer a:hover .icon.shortcode {
 #footer-sidebars .wpv_posts .wpv-tabs > ul li.ui-state-hover,
 #footer-sidebars .wpv_posts .wpv-tabs > ul li.ui-state-selected,
 #footer-sidebars .wpv_posts .wpv-tabs > ul li.ui-state-active {
-  border-color: #02254a;
+  border-color: #f2f2f2;
   background: transparent;
-  border-bottom-color: #033163 !important;
+  border-bottom-color: #ffffff !important;
 }
 #footer-sidebars .wpv_posts .ui-tabs-panel {
-  border-color: #02254a;
+  border-color: #f2f2f2;
 }
 #footer-sidebars .wpv_posts .posts_list li {
-  border-top-color: #02254a;
+  border-top-color: #f2f2f2;
   padding: 0 0 10px 0;
 }
 .copyrights {
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center top;
   background-attachment: scroll;
-  background-color: #033163;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: auto;
+  background-color: #FFF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
   padding: 25px 30px;
   margin: 0;
   position: relative;
@@ -10501,7 +10497,7 @@ footer.main-footer a:hover .icon.shortcode {
   list-style: none;
   float: left;
   padding: 0 5px;
-  border-left: 1px solid #0556ad;
+  border-left: 1px solid #ffffff;
 }
 #sub-footer-menu li a {
   color: #F0542D;

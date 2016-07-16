@@ -1,0 +1,1251 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grunt' ]
+2 info using npm@2.11.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/package.json
+6 warn package.json construction@1.0.0 license should be a valid SPDX license expression
+7 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/package.json
+8 silly cache add args [ 'grunt', null ]
+9 verbose cache add spec grunt
+10 silly cache add parsed spec { raw: 'grunt',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'grunt',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 silly addNamed grunt@*
+12 verbose addNamed "*" is a valid semver range for grunt
+13 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+14 silly mapToRegistry name grunt
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/grunt
+18 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/grunt
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 12:37:04
+22 verbose request id 5cc5592ff2764206
+23 verbose etag "ECA90YDBLSEMSYL4NLY6V6W9Z"
+24 http request GET https://registry.npmjs.org/grunt
+25 http 200 https://registry.npmjs.org/grunt
+26 silly get cb [ 200,
+26 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+26 silly get     etag: '"AH239V6LN78RSA83VN8M28UJ8"',
+26 silly get     'content-type': 'application/json',
+26 silly get     'content-encoding': 'gzip',
+26 silly get     'cache-control': 'max-age=300',
+26 silly get     'content-length': '13048',
+26 silly get     'accept-ranges': 'bytes',
+26 silly get     date: 'Thu, 14 Jul 2016 02:37:05 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     age: '285',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-syd1624-SYD',
+26 silly get     'x-cache': 'HIT',
+26 silly get     'x-cache-hits': '2',
+26 silly get     'x-timer': 'S1468463825.001062,VS0,VE0',
+26 silly get     vary: 'Accept-Encoding' } ]
+27 verbose get saving grunt to /Users/markdo/.npm/registry.npmjs.org/grunt/.cache.json
+28 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+29 silly addNameRange versions [ 'grunt',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.7',
+29 silly addNameRange     '0.2.8',
+29 silly addNameRange     '0.2.9',
+29 silly addNameRange     '0.2.10',
+29 silly addNameRange     '0.2.11',
+29 silly addNameRange     '0.2.12',
+29 silly addNameRange     '0.2.13',
+29 silly addNameRange     '0.2.14',
+29 silly addNameRange     '0.2.15',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.3',
+29 silly addNameRange     '0.3.4',
+29 silly addNameRange     '0.3.5',
+29 silly addNameRange     '0.3.6',
+29 silly addNameRange     '0.3.7',
+29 silly addNameRange     '0.3.8',
+29 silly addNameRange     '0.3.9',
+29 silly addNameRange     '0.3.10',
+29 silly addNameRange     '0.3.11',
+29 silly addNameRange     '0.3.12',
+29 silly addNameRange     '0.3.13',
+29 silly addNameRange     '0.3.14',
+29 silly addNameRange     '0.3.15',
+29 silly addNameRange     '0.3.16',
+29 silly addNameRange     '0.3.17',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.4.5',
+29 silly addNameRange     '1.0.0-rc1',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '0.3.13-a',
+29 silly addNameRange     '0.4.0-a',
+29 silly addNameRange     '0.4.0-rc1',
+29 silly addNameRange     '0.4.0-rc2',
+29 silly addNameRange     '0.4.0-rc3',
+29 silly addNameRange     '0.4.0-rc4',
+29 silly addNameRange     '0.4.0-rc5',
+29 silly addNameRange     '0.4.0-rc6',
+29 silly addNameRange     '0.4.0-rc7',
+29 silly addNameRange     '0.4.0-rc8' ] ]
+30 silly addNamed grunt@1.0.1
+31 verbose addNamed "1.0.1" is a plain semver version for grunt
+32 silly cache afterAdd grunt@1.0.1
+33 verbose afterAdd /Users/markdo/.npm/grunt/1.0.1/package/package.json not in flight; writing
+34 verbose afterAdd /Users/markdo/.npm/grunt/1.0.1/package/package.json written
+35 silly install resolved [ { name: 'grunt',
+35 silly install resolved     description: 'The JavaScript Task Runner',
+35 silly install resolved     version: '1.0.1',
+35 silly install resolved     author:
+35 silly install resolved      { name: 'Grunt Development Team',
+35 silly install resolved        url: 'http://gruntjs.com/development-team' },
+35 silly install resolved     homepage: 'http://gruntjs.com/',
+35 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gruntjs/grunt.git' },
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     engines: { node: '>=0.10.0' },
+35 silly install resolved     scripts: { test: 'grunt test', 'test-tap': 'grunt test:tap' },
+35 silly install resolved     main: 'lib/grunt',
+35 silly install resolved     bin: { grunt: 'bin/grunt' },
+35 silly install resolved     keywords:
+35 silly install resolved      [ 'task',
+35 silly install resolved        'async',
+35 silly install resolved        'cli',
+35 silly install resolved        'minify',
+35 silly install resolved        'uglify',
+35 silly install resolved        'build',
+35 silly install resolved        'lodash',
+35 silly install resolved        'unit',
+35 silly install resolved        'test',
+35 silly install resolved        'qunit',
+35 silly install resolved        'nodeunit',
+35 silly install resolved        'server',
+35 silly install resolved        'init',
+35 silly install resolved        'scaffold',
+35 silly install resolved        'make',
+35 silly install resolved        'jake',
+35 silly install resolved        'tool' ],
+35 silly install resolved     dependencies:
+35 silly install resolved      { 'coffee-script': '~1.10.0',
+35 silly install resolved        dateformat: '~1.0.12',
+35 silly install resolved        eventemitter2: '~0.4.13',
+35 silly install resolved        exit: '~0.1.1',
+35 silly install resolved        'findup-sync': '~0.3.0',
+35 silly install resolved        glob: '~7.0.0',
+35 silly install resolved        'grunt-cli': '~1.2.0',
+35 silly install resolved        'grunt-known-options': '~1.1.0',
+35 silly install resolved        'grunt-legacy-log': '~1.0.0',
+35 silly install resolved        'grunt-legacy-util': '~1.0.0',
+35 silly install resolved        'iconv-lite': '~0.4.13',
+35 silly install resolved        'js-yaml': '~3.5.2',
+35 silly install resolved        minimatch: '~3.0.0',
+35 silly install resolved        nopt: '~3.0.6',
+35 silly install resolved        'path-is-absolute': '~1.0.0',
+35 silly install resolved        rimraf: '~2.2.8' },
+35 silly install resolved     devDependencies:
+35 silly install resolved      { difflet: '~0.2.3',
+35 silly install resolved        'grunt-contrib-jshint': '~1.0.0',
+35 silly install resolved        'grunt-contrib-nodeunit': '~0.4.1',
+35 silly install resolved        'grunt-contrib-watch': '~1.0.0',
+35 silly install resolved        'grunt-jscs': '~2.8.0',
+35 silly install resolved        semver: '2.1.0',
+35 silly install resolved        shelljs: '~0.5.3',
+35 silly install resolved        temporary: '~0.0.4',
+35 silly install resolved        through2: '~2.0.0' },
+35 silly install resolved     files: [ 'lib', 'bin' ],
+35 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+35 silly install resolved     gitHead: '8ada4948b69c6ec9b1e956b5e6b2e6814fa054ca',
+35 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt/issues' },
+35 silly install resolved     _id: 'grunt@1.0.1',
+35 silly install resolved     _shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+35 silly install resolved     _from: 'grunt@*',
+35 silly install resolved     _npmVersion: '2.15.2',
+35 silly install resolved     _nodeVersion: '4.4.1',
+35 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+35 silly install resolved        tarball: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz' },
+35 silly install resolved     _npmOperationalInternal:
+35 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+35 silly install resolved        tmp: 'tmp/grunt-1.0.1.tgz_1459880209209_0.8634267684537917' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install grunt@1.0.1 into /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
+37 info installOne grunt@1.0.1
+38 verbose installOne of grunt to /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction not in flight; installing
+39 verbose lock using /Users/markdo/.npm/_locks/grunt-8928880aeae6e191.lock for /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+40 silly install write writing grunt 1.0.1 to /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+41 verbose unbuild node_modules/grunt
+42 silly gentlyRm /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt is being purged from base /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
+43 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+44 verbose tar unpack /Users/markdo/.npm/grunt/1.0.1/package.tgz
+45 verbose tar unpacking to /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+46 silly gentlyRm /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt is being purged
+47 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry CHANGELOG
+53 silly gunzTarPerm extractEntry bin/grunt
+54 silly gunzTarPerm extractEntry lib/grunt.js
+55 silly gunzTarPerm extractEntry lib/grunt/cli.js
+56 silly gunzTarPerm extractEntry lib/grunt/config.js
+57 silly gunzTarPerm extractEntry lib/grunt/event.js
+58 silly gunzTarPerm extractEntry lib/grunt/fail.js
+59 silly gunzTarPerm extractEntry lib/grunt/file.js
+60 silly gunzTarPerm extractEntry lib/grunt/help.js
+61 silly gunzTarPerm extractEntry lib/grunt/option.js
+62 silly gunzTarPerm extractEntry lib/grunt/task.js
+63 silly gunzTarPerm extractEntry lib/grunt/template.js
+64 silly gunzTarPerm extractEntry lib/util/task.js
+65 verbose write writing to /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt/package.json
+66 info preinstall grunt@1.0.1
+67 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt/package.json
+68 silly prepareForInstallMany adding coffee-script@~1.10.0 from grunt dependencies
+69 silly prepareForInstallMany adding dateformat@~1.0.12 from grunt dependencies
+70 silly prepareForInstallMany adding eventemitter2@~0.4.13 from grunt dependencies
+71 silly prepareForInstallMany adding exit@~0.1.1 from grunt dependencies
+72 silly prepareForInstallMany adding findup-sync@~0.3.0 from grunt dependencies
+73 silly prepareForInstallMany adding glob@~7.0.0 from grunt dependencies
+74 silly prepareForInstallMany adding grunt-cli@~1.2.0 from grunt dependencies
+75 silly prepareForInstallMany adding grunt-known-options@~1.1.0 from grunt dependencies
+76 silly prepareForInstallMany adding grunt-legacy-log@~1.0.0 from grunt dependencies
+77 silly prepareForInstallMany adding grunt-legacy-util@~1.0.0 from grunt dependencies
+78 silly prepareForInstallMany adding iconv-lite@~0.4.13 from grunt dependencies
+79 silly prepareForInstallMany adding js-yaml@~3.5.2 from grunt dependencies
+80 silly prepareForInstallMany adding minimatch@~3.0.0 from grunt dependencies
+81 silly prepareForInstallMany adding nopt@~3.0.6 from grunt dependencies
+82 silly prepareForInstallMany adding path-is-absolute@~1.0.0 from grunt dependencies
+83 silly prepareForInstallMany adding rimraf@~2.2.8 from grunt dependencies
+84 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt/package.json
+85 silly cache add args [ 'coffee-script@~1.10.0', null ]
+86 verbose cache add spec coffee-script@~1.10.0
+87 silly cache add args [ 'dateformat@~1.0.12', null ]
+88 verbose cache add spec dateformat@~1.0.12
+89 silly cache add parsed spec { raw: 'coffee-script@~1.10.0',
+89 silly cache add   scope: null,
+89 silly cache add   name: 'coffee-script',
+89 silly cache add   rawSpec: '~1.10.0',
+89 silly cache add   spec: '>=1.10.0 <1.11.0',
+89 silly cache add   type: 'range' }
+90 silly addNamed coffee-script@>=1.10.0 <1.11.0
+91 verbose addNamed ">=1.10.0 <1.11.0" is a valid semver range for coffee-script
+92 silly addNameRange { name: 'coffee-script',
+92 silly addNameRange   range: '>=1.10.0 <1.11.0',
+92 silly addNameRange   hasData: false }
+93 silly mapToRegistry name coffee-script
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+97 verbose addNameRange registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+98 silly cache add parsed spec { raw: 'dateformat@~1.0.12',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'dateformat',
+98 silly cache add   rawSpec: '~1.0.12',
+98 silly cache add   spec: '>=1.0.12 <1.1.0',
+98 silly cache add   type: 'range' }
+99 silly addNamed dateformat@>=1.0.12 <1.1.0
+100 verbose addNamed ">=1.0.12 <1.1.0" is a valid semver range for dateformat
+101 silly addNameRange { name: 'dateformat', range: '>=1.0.12 <1.1.0', hasData: false }
+102 silly mapToRegistry name dateformat
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+106 verbose addNameRange registry:https://registry.npmjs.org/dateformat not in flight; fetching
+107 silly cache add args [ 'eventemitter2@~0.4.13', null ]
+108 verbose cache add spec eventemitter2@~0.4.13
+109 silly cache add parsed spec { raw: 'eventemitter2@~0.4.13',
+109 silly cache add   scope: null,
+109 silly cache add   name: 'eventemitter2',
+109 silly cache add   rawSpec: '~0.4.13',
+109 silly cache add   spec: '>=0.4.13 <0.5.0',
+109 silly cache add   type: 'range' }
+110 silly addNamed eventemitter2@>=0.4.13 <0.5.0
+111 verbose addNamed ">=0.4.13 <0.5.0" is a valid semver range for eventemitter2
+112 silly addNameRange { name: 'eventemitter2',
+112 silly addNameRange   range: '>=0.4.13 <0.5.0',
+112 silly addNameRange   hasData: false }
+113 silly mapToRegistry name eventemitter2
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/eventemitter2
+117 verbose addNameRange registry:https://registry.npmjs.org/eventemitter2 not in flight; fetching
+118 silly cache add args [ 'exit@~0.1.1', null ]
+119 verbose cache add spec exit@~0.1.1
+120 silly cache add parsed spec { raw: 'exit@~0.1.1',
+120 silly cache add   scope: null,
+120 silly cache add   name: 'exit',
+120 silly cache add   rawSpec: '~0.1.1',
+120 silly cache add   spec: '>=0.1.1 <0.2.0',
+120 silly cache add   type: 'range' }
+121 silly addNamed exit@>=0.1.1 <0.2.0
+122 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for exit
+123 silly addNameRange { name: 'exit', range: '>=0.1.1 <0.2.0', hasData: false }
+124 silly mapToRegistry name exit
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/exit
+128 verbose addNameRange registry:https://registry.npmjs.org/exit not in flight; fetching
+129 silly cache add args [ 'findup-sync@~0.3.0', null ]
+130 verbose cache add spec findup-sync@~0.3.0
+131 silly cache add parsed spec { raw: 'findup-sync@~0.3.0',
+131 silly cache add   scope: null,
+131 silly cache add   name: 'findup-sync',
+131 silly cache add   rawSpec: '~0.3.0',
+131 silly cache add   spec: '>=0.3.0 <0.4.0',
+131 silly cache add   type: 'range' }
+132 silly addNamed findup-sync@>=0.3.0 <0.4.0
+133 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for findup-sync
+134 silly addNameRange { name: 'findup-sync', range: '>=0.3.0 <0.4.0', hasData: false }
+135 silly mapToRegistry name findup-sync
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry uri https://registry.npmjs.org/findup-sync
+139 verbose addNameRange registry:https://registry.npmjs.org/findup-sync not in flight; fetching
+140 silly cache add args [ 'glob@~7.0.0', null ]
+141 verbose cache add spec glob@~7.0.0
+142 silly cache add parsed spec { raw: 'glob@~7.0.0',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'glob',
+142 silly cache add   rawSpec: '~7.0.0',
+142 silly cache add   spec: '>=7.0.0 <7.1.0',
+142 silly cache add   type: 'range' }
+143 silly addNamed glob@>=7.0.0 <7.1.0
+144 verbose addNamed ">=7.0.0 <7.1.0" is a valid semver range for glob
+145 silly addNameRange { name: 'glob', range: '>=7.0.0 <7.1.0', hasData: false }
+146 silly mapToRegistry name glob
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry uri https://registry.npmjs.org/glob
+150 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+151 silly cache add args [ 'grunt-cli@~1.2.0', null ]
+152 verbose cache add spec grunt-cli@~1.2.0
+153 silly cache add parsed spec { raw: 'grunt-cli@~1.2.0',
+153 silly cache add   scope: null,
+153 silly cache add   name: 'grunt-cli',
+153 silly cache add   rawSpec: '~1.2.0',
+153 silly cache add   spec: '>=1.2.0 <1.3.0',
+153 silly cache add   type: 'range' }
+154 silly addNamed grunt-cli@>=1.2.0 <1.3.0
+155 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for grunt-cli
+156 silly addNameRange { name: 'grunt-cli', range: '>=1.2.0 <1.3.0', hasData: false }
+157 silly mapToRegistry name grunt-cli
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+161 verbose addNameRange registry:https://registry.npmjs.org/grunt-cli not in flight; fetching
+162 silly cache add args [ 'grunt-known-options@~1.1.0', null ]
+163 verbose cache add spec grunt-known-options@~1.1.0
+164 silly cache add parsed spec { raw: 'grunt-known-options@~1.1.0',
+164 silly cache add   scope: null,
+164 silly cache add   name: 'grunt-known-options',
+164 silly cache add   rawSpec: '~1.1.0',
+164 silly cache add   spec: '>=1.1.0 <1.2.0',
+164 silly cache add   type: 'range' }
+165 silly addNamed grunt-known-options@>=1.1.0 <1.2.0
+166 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for grunt-known-options
+167 silly addNameRange { name: 'grunt-known-options',
+167 silly addNameRange   range: '>=1.1.0 <1.2.0',
+167 silly addNameRange   hasData: false }
+168 silly mapToRegistry name grunt-known-options
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry uri https://registry.npmjs.org/grunt-known-options
+172 verbose addNameRange registry:https://registry.npmjs.org/grunt-known-options not in flight; fetching
+173 silly cache add args [ 'grunt-legacy-log@~1.0.0', null ]
+174 verbose cache add spec grunt-legacy-log@~1.0.0
+175 silly cache add parsed spec { raw: 'grunt-legacy-log@~1.0.0',
+175 silly cache add   scope: null,
+175 silly cache add   name: 'grunt-legacy-log',
+175 silly cache add   rawSpec: '~1.0.0',
+175 silly cache add   spec: '>=1.0.0 <1.1.0',
+175 silly cache add   type: 'range' }
+176 silly addNamed grunt-legacy-log@>=1.0.0 <1.1.0
+177 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for grunt-legacy-log
+178 silly addNameRange { name: 'grunt-legacy-log',
+178 silly addNameRange   range: '>=1.0.0 <1.1.0',
+178 silly addNameRange   hasData: false }
+179 silly mapToRegistry name grunt-legacy-log
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry uri https://registry.npmjs.org/grunt-legacy-log
+183 verbose addNameRange registry:https://registry.npmjs.org/grunt-legacy-log not in flight; fetching
+184 silly cache add args [ 'grunt-legacy-util@~1.0.0', null ]
+185 verbose cache add spec grunt-legacy-util@~1.0.0
+186 silly cache add parsed spec { raw: 'grunt-legacy-util@~1.0.0',
+186 silly cache add   scope: null,
+186 silly cache add   name: 'grunt-legacy-util',
+186 silly cache add   rawSpec: '~1.0.0',
+186 silly cache add   spec: '>=1.0.0 <1.1.0',
+186 silly cache add   type: 'range' }
+187 silly addNamed grunt-legacy-util@>=1.0.0 <1.1.0
+188 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for grunt-legacy-util
+189 silly addNameRange { name: 'grunt-legacy-util',
+189 silly addNameRange   range: '>=1.0.0 <1.1.0',
+189 silly addNameRange   hasData: false }
+190 silly mapToRegistry name grunt-legacy-util
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry uri https://registry.npmjs.org/grunt-legacy-util
+194 verbose addNameRange registry:https://registry.npmjs.org/grunt-legacy-util not in flight; fetching
+195 silly cache add args [ 'iconv-lite@~0.4.13', null ]
+196 verbose cache add spec iconv-lite@~0.4.13
+197 silly cache add parsed spec { raw: 'iconv-lite@~0.4.13',
+197 silly cache add   scope: null,
+197 silly cache add   name: 'iconv-lite',
+197 silly cache add   rawSpec: '~0.4.13',
+197 silly cache add   spec: '>=0.4.13 <0.5.0',
+197 silly cache add   type: 'range' }
+198 silly addNamed iconv-lite@>=0.4.13 <0.5.0
+199 verbose addNamed ">=0.4.13 <0.5.0" is a valid semver range for iconv-lite
+200 silly addNameRange { name: 'iconv-lite', range: '>=0.4.13 <0.5.0', hasData: false }
+201 silly mapToRegistry name iconv-lite
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+205 verbose addNameRange registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
+206 silly cache add args [ 'js-yaml@~3.5.2', null ]
+207 verbose cache add spec js-yaml@~3.5.2
+208 silly cache add parsed spec { raw: 'js-yaml@~3.5.2',
+208 silly cache add   scope: null,
+208 silly cache add   name: 'js-yaml',
+208 silly cache add   rawSpec: '~3.5.2',
+208 silly cache add   spec: '>=3.5.2 <3.6.0',
+208 silly cache add   type: 'range' }
+209 silly addNamed js-yaml@>=3.5.2 <3.6.0
+210 verbose addNamed ">=3.5.2 <3.6.0" is a valid semver range for js-yaml
+211 silly addNameRange { name: 'js-yaml', range: '>=3.5.2 <3.6.0', hasData: false }
+212 silly mapToRegistry name js-yaml
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry uri https://registry.npmjs.org/js-yaml
+216 verbose addNameRange registry:https://registry.npmjs.org/js-yaml not in flight; fetching
+217 silly cache add args [ 'minimatch@~3.0.0', null ]
+218 verbose cache add spec minimatch@~3.0.0
+219 silly cache add parsed spec { raw: 'minimatch@~3.0.0',
+219 silly cache add   scope: null,
+219 silly cache add   name: 'minimatch',
+219 silly cache add   rawSpec: '~3.0.0',
+219 silly cache add   spec: '>=3.0.0 <3.1.0',
+219 silly cache add   type: 'range' }
+220 silly addNamed minimatch@>=3.0.0 <3.1.0
+221 verbose addNamed ">=3.0.0 <3.1.0" is a valid semver range for minimatch
+222 silly addNameRange { name: 'minimatch', range: '>=3.0.0 <3.1.0', hasData: false }
+223 silly mapToRegistry name minimatch
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+227 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+228 silly cache add args [ 'nopt@~3.0.6', null ]
+229 verbose cache add spec nopt@~3.0.6
+230 silly cache add parsed spec { raw: 'nopt@~3.0.6',
+230 silly cache add   scope: null,
+230 silly cache add   name: 'nopt',
+230 silly cache add   rawSpec: '~3.0.6',
+230 silly cache add   spec: '>=3.0.6 <3.1.0',
+230 silly cache add   type: 'range' }
+231 silly addNamed nopt@>=3.0.6 <3.1.0
+232 verbose addNamed ">=3.0.6 <3.1.0" is a valid semver range for nopt
+233 silly addNameRange { name: 'nopt', range: '>=3.0.6 <3.1.0', hasData: false }
+234 silly mapToRegistry name nopt
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npmjs.org/
+237 silly mapToRegistry uri https://registry.npmjs.org/nopt
+238 verbose addNameRange registry:https://registry.npmjs.org/nopt not in flight; fetching
+239 silly cache add args [ 'path-is-absolute@~1.0.0', null ]
+240 verbose cache add spec path-is-absolute@~1.0.0
+241 silly cache add parsed spec { raw: 'path-is-absolute@~1.0.0',
+241 silly cache add   scope: null,
+241 silly cache add   name: 'path-is-absolute',
+241 silly cache add   rawSpec: '~1.0.0',
+241 silly cache add   spec: '>=1.0.0 <1.1.0',
+241 silly cache add   type: 'range' }
+242 silly addNamed path-is-absolute@>=1.0.0 <1.1.0
+243 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for path-is-absolute
+244 silly addNameRange { name: 'path-is-absolute',
+244 silly addNameRange   range: '>=1.0.0 <1.1.0',
+244 silly addNameRange   hasData: false }
+245 silly mapToRegistry name path-is-absolute
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npmjs.org/
+248 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+249 verbose addNameRange registry:https://registry.npmjs.org/path-is-absolute not in flight; fetching
+250 silly cache add args [ 'rimraf@~2.2.8', null ]
+251 verbose cache add spec rimraf@~2.2.8
+252 silly cache add parsed spec { raw: 'rimraf@~2.2.8',
+252 silly cache add   scope: null,
+252 silly cache add   name: 'rimraf',
+252 silly cache add   rawSpec: '~2.2.8',
+252 silly cache add   spec: '>=2.2.8 <2.3.0',
+252 silly cache add   type: 'range' }
+253 silly addNamed rimraf@>=2.2.8 <2.3.0
+254 verbose addNamed ">=2.2.8 <2.3.0" is a valid semver range for rimraf
+255 silly addNameRange { name: 'rimraf', range: '>=2.2.8 <2.3.0', hasData: false }
+256 silly mapToRegistry name rimraf
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry uri https://registry.npmjs.org/rimraf
+260 verbose addNameRange registry:https://registry.npmjs.org/rimraf not in flight; fetching
+261 verbose request uri https://registry.npmjs.org/grunt-known-options
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 12:37:05
+264 http request GET https://registry.npmjs.org/grunt-known-options
+265 verbose request uri https://registry.npmjs.org/exit
+266 verbose request no auth needed
+267 info attempt registry request try #1 at 12:37:05
+268 verbose etag "4XONAOEJRJ8BY2QSXHVBYCYQC"
+269 http request GET https://registry.npmjs.org/exit
+270 verbose request uri https://registry.npmjs.org/dateformat
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 12:37:05
+273 verbose etag "C9XBBHI4W46ATES5CP1SCW9V9"
+274 http request GET https://registry.npmjs.org/dateformat
+275 verbose request uri https://registry.npmjs.org/findup-sync
+276 verbose request no auth needed
+277 info attempt registry request try #1 at 12:37:05
+278 verbose etag "4T2YM1183BMIEH25O8P2RBD4U"
+279 http request GET https://registry.npmjs.org/findup-sync
+280 verbose request uri https://registry.npmjs.org/eventemitter2
+281 verbose request no auth needed
+282 info attempt registry request try #1 at 12:37:05
+283 verbose etag "E516A2ZEXUAZ7Z78UP5227W2S"
+284 http request GET https://registry.npmjs.org/eventemitter2
+285 verbose request uri https://registry.npmjs.org/grunt-cli
+286 verbose request no auth needed
+287 info attempt registry request try #1 at 12:37:05
+288 verbose etag "3SKZORTYNW8YEPOTXB5BNCS0N"
+289 http request GET https://registry.npmjs.org/grunt-cli
+290 verbose request uri https://registry.npmjs.org/coffee-script
+291 verbose request no auth needed
+292 info attempt registry request try #1 at 12:37:05
+293 verbose etag "B3LP8GKS78ETOBOOGSTJC2A6D"
+294 http request GET https://registry.npmjs.org/coffee-script
+295 verbose request uri https://registry.npmjs.org/grunt-legacy-log
+296 verbose request no auth needed
+297 info attempt registry request try #1 at 12:37:05
+298 verbose etag "BW8R33IX38J1Q09EPN87BQNU5"
+299 http request GET https://registry.npmjs.org/grunt-legacy-log
+300 verbose request uri https://registry.npmjs.org/grunt-legacy-util
+301 verbose request no auth needed
+302 info attempt registry request try #1 at 12:37:05
+303 verbose etag "937M3ZH1Z0OA0IWSDR7Y8V1TP"
+304 http request GET https://registry.npmjs.org/grunt-legacy-util
+305 verbose request uri https://registry.npmjs.org/minimatch
+306 verbose request no auth needed
+307 info attempt registry request try #1 at 12:37:05
+308 verbose etag "9842TJ5AM2N22TN2QRRRNRJEV"
+309 http request GET https://registry.npmjs.org/minimatch
+310 verbose request uri https://registry.npmjs.org/iconv-lite
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 12:37:05
+313 verbose etag "6FZK5MJUJHTB59CX84ABPYN9U"
+314 http request GET https://registry.npmjs.org/iconv-lite
+315 verbose request uri https://registry.npmjs.org/path-is-absolute
+316 verbose request no auth needed
+317 info attempt registry request try #1 at 12:37:05
+318 verbose etag "BN5VZYARJTFIZINEV94ZMOHSE"
+319 http request GET https://registry.npmjs.org/path-is-absolute
+320 verbose request uri https://registry.npmjs.org/js-yaml
+321 verbose request no auth needed
+322 info attempt registry request try #1 at 12:37:05
+323 verbose etag "EDHWCQBZVRT67BQ30FXDNAKCE"
+324 http request GET https://registry.npmjs.org/js-yaml
+325 verbose request uri https://registry.npmjs.org/glob
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 12:37:05
+328 verbose etag "L8UY1GFQTZGM9BJ8FRYWFLID"
+329 http request GET https://registry.npmjs.org/glob
+330 verbose request uri https://registry.npmjs.org/nopt
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 12:37:05
+333 verbose etag "EOZTX9OIF152XUTZOK5DSHSTH"
+334 http request GET https://registry.npmjs.org/nopt
+335 verbose request uri https://registry.npmjs.org/rimraf
+336 verbose request no auth needed
+337 info attempt registry request try #1 at 12:37:05
+338 verbose etag "BZQJQ6ZMWE92JU53L2RI9KDK9"
+339 http request GET https://registry.npmjs.org/rimraf
+340 info retry will retry, error on last attempt: Error: read ETIMEDOUT
+341 info attempt registry request try #2 at 12:37:54
+342 http request GET https://registry.npmjs.org/grunt-known-options
+343 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+344 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+345 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+346 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+347 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+348 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+349 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+350 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+351 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+352 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+353 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+354 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+355 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+356 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+357 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+358 info attempt registry request try #2 at 12:38:30
+359 verbose etag "C9XBBHI4W46ATES5CP1SCW9V9"
+360 http request GET https://registry.npmjs.org/dateformat
+361 info attempt registry request try #2 at 12:38:30
+362 verbose etag "4XONAOEJRJ8BY2QSXHVBYCYQC"
+363 http request GET https://registry.npmjs.org/exit
+364 info attempt registry request try #2 at 12:38:30
+365 verbose etag "EDHWCQBZVRT67BQ30FXDNAKCE"
+366 http request GET https://registry.npmjs.org/js-yaml
+367 info attempt registry request try #2 at 12:38:30
+368 verbose etag "BN5VZYARJTFIZINEV94ZMOHSE"
+369 http request GET https://registry.npmjs.org/path-is-absolute
+370 info attempt registry request try #2 at 12:38:30
+371 verbose etag "6FZK5MJUJHTB59CX84ABPYN9U"
+372 http request GET https://registry.npmjs.org/iconv-lite
+373 info attempt registry request try #2 at 12:38:30
+374 verbose etag "9842TJ5AM2N22TN2QRRRNRJEV"
+375 http request GET https://registry.npmjs.org/minimatch
+376 info attempt registry request try #2 at 12:38:30
+377 verbose etag "937M3ZH1Z0OA0IWSDR7Y8V1TP"
+378 http request GET https://registry.npmjs.org/grunt-legacy-util
+379 info attempt registry request try #2 at 12:38:30
+380 verbose etag "BW8R33IX38J1Q09EPN87BQNU5"
+381 http request GET https://registry.npmjs.org/grunt-legacy-log
+382 info attempt registry request try #2 at 12:38:30
+383 verbose etag "B3LP8GKS78ETOBOOGSTJC2A6D"
+384 http request GET https://registry.npmjs.org/coffee-script
+385 info attempt registry request try #2 at 12:38:30
+386 verbose etag "3SKZORTYNW8YEPOTXB5BNCS0N"
+387 http request GET https://registry.npmjs.org/grunt-cli
+388 info attempt registry request try #2 at 12:38:30
+389 verbose etag "E516A2ZEXUAZ7Z78UP5227W2S"
+390 http request GET https://registry.npmjs.org/eventemitter2
+391 info attempt registry request try #2 at 12:38:30
+392 verbose etag "4T2YM1183BMIEH25O8P2RBD4U"
+393 http request GET https://registry.npmjs.org/findup-sync
+394 info attempt registry request try #2 at 12:38:30
+395 verbose etag "L8UY1GFQTZGM9BJ8FRYWFLID"
+396 http request GET https://registry.npmjs.org/glob
+397 info attempt registry request try #2 at 12:38:30
+398 verbose etag "EOZTX9OIF152XUTZOK5DSHSTH"
+399 http request GET https://registry.npmjs.org/nopt
+400 info attempt registry request try #2 at 12:38:30
+401 verbose etag "BZQJQ6ZMWE92JU53L2RI9KDK9"
+402 http request GET https://registry.npmjs.org/rimraf
+403 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+404 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+405 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+406 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+407 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+408 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+409 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+410 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+411 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+412 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+413 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+414 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+415 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+416 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+417 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+418 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+419 info attempt registry request try #3 at 12:40:09
+420 http request GET https://registry.npmjs.org/grunt-known-options
+421 info attempt registry request try #3 at 12:40:45
+422 verbose etag "BN5VZYARJTFIZINEV94ZMOHSE"
+423 http request GET https://registry.npmjs.org/path-is-absolute
+424 info attempt registry request try #3 at 12:40:45
+425 verbose etag "C9XBBHI4W46ATES5CP1SCW9V9"
+426 http request GET https://registry.npmjs.org/dateformat
+427 info attempt registry request try #3 at 12:40:45
+428 verbose etag "4XONAOEJRJ8BY2QSXHVBYCYQC"
+429 http request GET https://registry.npmjs.org/exit
+430 info attempt registry request try #3 at 12:40:45
+431 verbose etag "EDHWCQBZVRT67BQ30FXDNAKCE"
+432 http request GET https://registry.npmjs.org/js-yaml
+433 info attempt registry request try #3 at 12:40:45
+434 verbose etag "BW8R33IX38J1Q09EPN87BQNU5"
+435 http request GET https://registry.npmjs.org/grunt-legacy-log
+436 info attempt registry request try #3 at 12:40:45
+437 verbose etag "937M3ZH1Z0OA0IWSDR7Y8V1TP"
+438 http request GET https://registry.npmjs.org/grunt-legacy-util
+439 info attempt registry request try #3 at 12:40:45
+440 verbose etag "9842TJ5AM2N22TN2QRRRNRJEV"
+441 http request GET https://registry.npmjs.org/minimatch
+442 info attempt registry request try #3 at 12:40:45
+443 verbose etag "6FZK5MJUJHTB59CX84ABPYN9U"
+444 http request GET https://registry.npmjs.org/iconv-lite
+445 info attempt registry request try #3 at 12:40:45
+446 verbose etag "3SKZORTYNW8YEPOTXB5BNCS0N"
+447 http request GET https://registry.npmjs.org/grunt-cli
+448 info attempt registry request try #3 at 12:40:45
+449 verbose etag "B3LP8GKS78ETOBOOGSTJC2A6D"
+450 http request GET https://registry.npmjs.org/coffee-script
+451 info attempt registry request try #3 at 12:40:45
+452 verbose etag "BZQJQ6ZMWE92JU53L2RI9KDK9"
+453 http request GET https://registry.npmjs.org/rimraf
+454 info attempt registry request try #3 at 12:40:45
+455 verbose etag "EOZTX9OIF152XUTZOK5DSHSTH"
+456 http request GET https://registry.npmjs.org/nopt
+457 info attempt registry request try #3 at 12:40:45
+458 verbose etag "L8UY1GFQTZGM9BJ8FRYWFLID"
+459 http request GET https://registry.npmjs.org/glob
+460 info attempt registry request try #3 at 12:40:45
+461 verbose etag "E516A2ZEXUAZ7Z78UP5227W2S"
+462 http request GET https://registry.npmjs.org/eventemitter2
+463 info attempt registry request try #3 at 12:40:45
+464 verbose etag "4T2YM1183BMIEH25O8P2RBD4U"
+465 http request GET https://registry.npmjs.org/findup-sync
+466 silly get cb [ 304, undefined ]
+467 verbose etag https://registry.npmjs.org/iconv-lite from cache
+468 verbose get saving iconv-lite to /Users/markdo/.npm/registry.npmjs.org/iconv-lite/.cache.json
+469 silly get cb [ 304, undefined ]
+470 verbose etag https://registry.npmjs.org/minimatch from cache
+471 verbose get saving minimatch to /Users/markdo/.npm/registry.npmjs.org/minimatch/.cache.json
+472 silly get cb [ 304, undefined ]
+473 verbose etag https://registry.npmjs.org/grunt-legacy-util from cache
+474 verbose get saving grunt-legacy-util to /Users/markdo/.npm/registry.npmjs.org/grunt-legacy-util/.cache.json
+475 silly get cb [ 304, undefined ]
+476 verbose etag https://registry.npmjs.org/grunt-legacy-log from cache
+477 verbose get saving grunt-legacy-log to /Users/markdo/.npm/registry.npmjs.org/grunt-legacy-log/.cache.json
+478 silly get cb [ 304, undefined ]
+479 verbose etag https://registry.npmjs.org/js-yaml from cache
+480 verbose get saving js-yaml to /Users/markdo/.npm/registry.npmjs.org/js-yaml/.cache.json
+481 silly get cb [ 304, undefined ]
+482 verbose etag https://registry.npmjs.org/exit from cache
+483 verbose get saving exit to /Users/markdo/.npm/registry.npmjs.org/exit/.cache.json
+484 silly get cb [ 304, undefined ]
+485 verbose etag https://registry.npmjs.org/dateformat from cache
+486 verbose get saving dateformat to /Users/markdo/.npm/registry.npmjs.org/dateformat/.cache.json
+487 silly get cb [ 304, undefined ]
+488 verbose etag https://registry.npmjs.org/path-is-absolute from cache
+489 verbose get saving path-is-absolute to /Users/markdo/.npm/registry.npmjs.org/path-is-absolute/.cache.json
+490 silly addNameRange number 2 { name: 'iconv-lite', range: '>=0.4.13 <0.5.0', hasData: true }
+491 silly addNameRange versions [ 'iconv-lite',
+491 silly addNameRange   [ '0.1.0',
+491 silly addNameRange     '0.1.1',
+491 silly addNameRange     '0.1.2',
+491 silly addNameRange     '0.1.3',
+491 silly addNameRange     '0.1.4',
+491 silly addNameRange     '0.2.0',
+491 silly addNameRange     '0.2.1',
+491 silly addNameRange     '0.2.3',
+491 silly addNameRange     '0.2.4',
+491 silly addNameRange     '0.2.5',
+491 silly addNameRange     '0.2.6',
+491 silly addNameRange     '0.2.7',
+491 silly addNameRange     '0.2.8',
+491 silly addNameRange     '0.2.9',
+491 silly addNameRange     '0.2.10',
+491 silly addNameRange     '0.2.11',
+491 silly addNameRange     '0.4.0-pre',
+491 silly addNameRange     '0.4.0-pre2',
+491 silly addNameRange     '0.4.0-pre3',
+491 silly addNameRange     '0.4.0',
+491 silly addNameRange     '0.4.1',
+491 silly addNameRange     '0.4.2',
+491 silly addNameRange     '0.4.3',
+491 silly addNameRange     '0.4.4',
+491 silly addNameRange     '0.4.5',
+491 silly addNameRange     '0.4.6',
+491 silly addNameRange     '0.4.7',
+491 silly addNameRange     '0.4.8',
+491 silly addNameRange     '0.4.9',
+491 silly addNameRange     '0.4.10',
+491 silly addNameRange     '0.4.11',
+491 silly addNameRange     '0.4.12',
+491 silly addNameRange     '0.4.13' ] ]
+492 silly addNamed iconv-lite@0.4.13
+493 verbose addNamed "0.4.13" is a plain semver version for iconv-lite
+494 silly addNameRange number 2 { name: 'minimatch', range: '>=3.0.0 <3.1.0', hasData: true }
+495 silly addNameRange versions [ 'minimatch',
+495 silly addNameRange   [ '0.0.1',
+495 silly addNameRange     '0.0.2',
+495 silly addNameRange     '0.0.4',
+495 silly addNameRange     '0.0.5',
+495 silly addNameRange     '0.1.1',
+495 silly addNameRange     '0.1.2',
+495 silly addNameRange     '0.1.3',
+495 silly addNameRange     '0.1.4',
+495 silly addNameRange     '0.1.5',
+495 silly addNameRange     '0.2.0',
+495 silly addNameRange     '0.2.2',
+495 silly addNameRange     '0.2.3',
+495 silly addNameRange     '0.2.4',
+495 silly addNameRange     '0.2.5',
+495 silly addNameRange     '0.2.6',
+495 silly addNameRange     '0.2.7',
+495 silly addNameRange     '0.2.8',
+495 silly addNameRange     '0.2.9',
+495 silly addNameRange     '0.2.10',
+495 silly addNameRange     '0.2.11',
+495 silly addNameRange     '0.2.12',
+495 silly addNameRange     '0.2.13',
+495 silly addNameRange     '0.2.14',
+495 silly addNameRange     '0.3.0',
+495 silly addNameRange     '0.4.0',
+495 silly addNameRange     '1.0.0',
+495 silly addNameRange     '2.0.0',
+495 silly addNameRange     '2.0.1',
+495 silly addNameRange     '2.0.2',
+495 silly addNameRange     '2.0.3',
+495 silly addNameRange     '2.0.4',
+495 silly addNameRange     '2.0.5',
+495 silly addNameRange     '2.0.6',
+495 silly addNameRange     '2.0.7',
+495 silly addNameRange     '2.0.8',
+495 silly addNameRange     '2.0.9',
+495 silly addNameRange     '2.0.10',
+495 silly addNameRange     '3.0.0' ] ]
+496 silly addNamed minimatch@3.0.0
+497 verbose addNamed "3.0.0" is a plain semver version for minimatch
+498 silly addNameRange number 2 { name: 'grunt-legacy-util',
+498 silly addNameRange   range: '>=1.0.0 <1.1.0',
+498 silly addNameRange   hasData: true }
+499 silly addNameRange versions [ 'grunt-legacy-util', [ '0.1.0', '0.1.1', '0.1.2', '0.2.0' ] ]
+500 silly addNameRange number 2 { name: 'grunt-legacy-log',
+500 silly addNameRange   range: '>=1.0.0 <1.1.0',
+500 silly addNameRange   hasData: true }
+501 silly addNameRange versions [ 'grunt-legacy-log', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+502 silly addNameRange number 2 { name: 'exit', range: '>=0.1.1 <0.2.0', hasData: true }
+503 silly addNameRange versions [ 'exit', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+504 silly addNamed exit@0.1.2
+505 verbose addNamed "0.1.2" is a plain semver version for exit
+506 silly addNameRange number 2 { name: 'js-yaml', range: '>=3.5.2 <3.6.0', hasData: true }
+507 silly addNameRange versions [ 'js-yaml',
+507 silly addNameRange   [ '0.2.0',
+507 silly addNameRange     '0.2.1',
+507 silly addNameRange     '0.2.2',
+507 silly addNameRange     '0.3.0',
+507 silly addNameRange     '0.3.1',
+507 silly addNameRange     '0.3.2',
+507 silly addNameRange     '0.3.3',
+507 silly addNameRange     '0.3.4',
+507 silly addNameRange     '0.3.5',
+507 silly addNameRange     '0.3.6',
+507 silly addNameRange     '0.3.7',
+507 silly addNameRange     '1.0.0',
+507 silly addNameRange     '1.0.1',
+507 silly addNameRange     '1.0.2',
+507 silly addNameRange     '1.0.3',
+507 silly addNameRange     '2.0.0',
+507 silly addNameRange     '2.0.1',
+507 silly addNameRange     '2.0.2',
+507 silly addNameRange     '2.0.3',
+507 silly addNameRange     '2.0.4',
+507 silly addNameRange     '2.0.5',
+507 silly addNameRange     '2.1.0',
+507 silly addNameRange     '2.1.1',
+507 silly addNameRange     '2.1.2',
+507 silly addNameRange     '2.1.3',
+507 silly addNameRange     '3.0.0',
+507 silly addNameRange     '3.0.1',
+507 silly addNameRange     '3.0.2',
+507 silly addNameRange     '3.1.0',
+507 silly addNameRange     '3.2.1',
+507 silly addNameRange     '3.2.2',
+507 silly addNameRange     '3.2.3',
+507 silly addNameRange     '3.2.4',
+507 silly addNameRange     '3.2.5',
+507 silly addNameRange     '3.2.6',
+507 silly addNameRange     '3.2.7',
+507 silly addNameRange     '3.3.0',
+507 silly addNameRange     '3.3.1',
+507 silly addNameRange     '3.4.0',
+507 silly addNameRange     '3.4.1',
+507 silly addNameRange     '3.4.2',
+507 silly addNameRange     '3.4.3',
+507 silly addNameRange     '3.4.4',
+507 silly addNameRange     '3.4.5',
+507 silly addNameRange     '3.4.6',
+507 silly addNameRange     '3.5.0',
+507 silly addNameRange     '3.5.1',
+507 silly addNameRange     '3.5.2',
+507 silly addNameRange     '3.5.3' ] ]
+508 silly addNamed js-yaml@3.5.3
+509 verbose addNamed "3.5.3" is a plain semver version for js-yaml
+510 silly addNameRange number 2 { name: 'dateformat', range: '>=1.0.12 <1.1.0', hasData: true }
+511 silly addNameRange versions [ 'dateformat',
+511 silly addNameRange   [ '0.9.0-1.2.3',
+511 silly addNameRange     '1.0.0-1.2.3',
+511 silly addNameRange     '1.0.1-1.2.3',
+511 silly addNameRange     '1.0.2-1.2.3',
+511 silly addNameRange     '1.0.3-1.2.3',
+511 silly addNameRange     '1.0.4-1.2.3',
+511 silly addNameRange     '1.0.5-1.2.3',
+511 silly addNameRange     '1.0.6-1.2.3',
+511 silly addNameRange     '1.0.7-1.2.3',
+511 silly addNameRange     '1.0.8-1.2.3',
+511 silly addNameRange     '1.0.8',
+511 silly addNameRange     '1.0.9',
+511 silly addNameRange     '1.0.10',
+511 silly addNameRange     '1.0.11',
+511 silly addNameRange     '1.0.12' ] ]
+512 silly addNamed dateformat@1.0.12
+513 verbose addNamed "1.0.12" is a plain semver version for dateformat
+514 silly addNameRange number 2 { name: 'path-is-absolute',
+514 silly addNameRange   range: '>=1.0.0 <1.1.0',
+514 silly addNameRange   hasData: true }
+515 silly addNameRange versions [ 'path-is-absolute', [ '1.0.0' ] ]
+516 silly addNamed path-is-absolute@1.0.0
+517 verbose addNamed "1.0.0" is a plain semver version for path-is-absolute
+518 silly get cb [ 304, undefined ]
+519 verbose etag https://registry.npmjs.org/findup-sync from cache
+520 verbose get saving findup-sync to /Users/markdo/.npm/registry.npmjs.org/findup-sync/.cache.json
+521 silly get cb [ 304, undefined ]
+522 verbose etag https://registry.npmjs.org/eventemitter2 from cache
+523 verbose get saving eventemitter2 to /Users/markdo/.npm/registry.npmjs.org/eventemitter2/.cache.json
+524 silly get cb [ 304, undefined ]
+525 verbose etag https://registry.npmjs.org/glob from cache
+526 verbose get saving glob to /Users/markdo/.npm/registry.npmjs.org/glob/.cache.json
+527 silly get cb [ 304, undefined ]
+528 verbose etag https://registry.npmjs.org/nopt from cache
+529 verbose get saving nopt to /Users/markdo/.npm/registry.npmjs.org/nopt/.cache.json
+530 silly get cb [ 304, undefined ]
+531 verbose etag https://registry.npmjs.org/rimraf from cache
+532 verbose get saving rimraf to /Users/markdo/.npm/registry.npmjs.org/rimraf/.cache.json
+533 silly get cb [ 304, undefined ]
+534 verbose etag https://registry.npmjs.org/coffee-script from cache
+535 verbose get saving coffee-script to /Users/markdo/.npm/registry.npmjs.org/coffee-script/.cache.json
+536 silly get cb [ 304, undefined ]
+537 verbose etag https://registry.npmjs.org/grunt-cli from cache
+538 verbose get saving grunt-cli to /Users/markdo/.npm/registry.npmjs.org/grunt-cli/.cache.json
+539 silly cache afterAdd minimatch@3.0.0
+540 verbose afterAdd /Users/markdo/.npm/minimatch/3.0.0/package/package.json not in flight; writing
+541 silly cache afterAdd iconv-lite@0.4.13
+542 verbose afterAdd /Users/markdo/.npm/iconv-lite/0.4.13/package/package.json not in flight; writing
+543 silly cache afterAdd exit@0.1.2
+544 verbose afterAdd /Users/markdo/.npm/exit/0.1.2/package/package.json not in flight; writing
+545 silly cache afterAdd path-is-absolute@1.0.0
+546 verbose afterAdd /Users/markdo/.npm/path-is-absolute/1.0.0/package/package.json not in flight; writing
+547 silly cache afterAdd js-yaml@3.5.3
+548 verbose afterAdd /Users/markdo/.npm/js-yaml/3.5.3/package/package.json not in flight; writing
+549 silly cache afterAdd dateformat@1.0.12
+550 verbose afterAdd /Users/markdo/.npm/dateformat/1.0.12/package/package.json not in flight; writing
+551 silly addNameRange number 2 { name: 'eventemitter2',
+551 silly addNameRange   range: '>=0.4.13 <0.5.0',
+551 silly addNameRange   hasData: true }
+552 silly addNameRange versions [ 'eventemitter2',
+552 silly addNameRange   [ '0.0.1',
+552 silly addNameRange     '0.1.0',
+552 silly addNameRange     '0.1.1',
+552 silly addNameRange     '0.1.3',
+552 silly addNameRange     '0.2.5',
+552 silly addNameRange     '0.2.6',
+552 silly addNameRange     '0.2.7',
+552 silly addNameRange     '0.3.5',
+552 silly addNameRange     '0.3.6',
+552 silly addNameRange     '0.3.7',
+552 silly addNameRange     '0.4.0',
+552 silly addNameRange     '0.4.1',
+552 silly addNameRange     '0.4.3',
+552 silly addNameRange     '0.4.6',
+552 silly addNameRange     '0.4.7',
+552 silly addNameRange     '0.4.8',
+552 silly addNameRange     '0.4.9',
+552 silly addNameRange     '0.4.10',
+552 silly addNameRange     '0.4.11',
+552 silly addNameRange     '0.4.12',
+552 silly addNameRange     '0.4.13',
+552 silly addNameRange     '0.4.14' ] ]
+553 silly addNamed eventemitter2@0.4.14
+554 verbose addNamed "0.4.14" is a plain semver version for eventemitter2
+555 silly addNameRange number 2 { name: 'nopt', range: '>=3.0.6 <3.1.0', hasData: true }
+556 silly addNameRange versions [ 'nopt',
+556 silly addNameRange   [ '1.0.0',
+556 silly addNameRange     '1.0.1',
+556 silly addNameRange     '1.0.2',
+556 silly addNameRange     '1.0.3',
+556 silly addNameRange     '1.0.4',
+556 silly addNameRange     '1.0.5',
+556 silly addNameRange     '1.0.6',
+556 silly addNameRange     '1.0.7',
+556 silly addNameRange     '1.0.8',
+556 silly addNameRange     '1.0.9',
+556 silly addNameRange     '1.0.10',
+556 silly addNameRange     '2.0.0',
+556 silly addNameRange     '2.1.0',
+556 silly addNameRange     '2.1.1',
+556 silly addNameRange     '2.1.2',
+556 silly addNameRange     '2.2.0',
+556 silly addNameRange     '2.2.1',
+556 silly addNameRange     '3.0.0',
+556 silly addNameRange     '3.0.1',
+556 silly addNameRange     '3.0.2',
+556 silly addNameRange     '3.0.3',
+556 silly addNameRange     '3.0.4',
+556 silly addNameRange     '3.0.5',
+556 silly addNameRange     '3.0.6' ] ]
+557 silly addNamed nopt@3.0.6
+558 verbose addNamed "3.0.6" is a plain semver version for nopt
+559 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.8 <2.3.0', hasData: true }
+560 silly addNameRange versions [ 'rimraf',
+560 silly addNameRange   [ '1.0.0',
+560 silly addNameRange     '1.0.1',
+560 silly addNameRange     '1.0.2',
+560 silly addNameRange     '1.0.4',
+560 silly addNameRange     '1.0.5',
+560 silly addNameRange     '1.0.6',
+560 silly addNameRange     '1.0.7',
+560 silly addNameRange     '1.0.8',
+560 silly addNameRange     '1.0.9',
+560 silly addNameRange     '2.0.0',
+560 silly addNameRange     '2.0.1',
+560 silly addNameRange     '2.0.2',
+560 silly addNameRange     '2.0.3',
+560 silly addNameRange     '2.1.0',
+560 silly addNameRange     '2.1.1',
+560 silly addNameRange     '2.1.2',
+560 silly addNameRange     '2.1.3',
+560 silly addNameRange     '2.1.4',
+560 silly addNameRange     '2.2.0',
+560 silly addNameRange     '2.2.1',
+560 silly addNameRange     '2.2.2',
+560 silly addNameRange     '2.2.3',
+560 silly addNameRange     '2.2.4',
+560 silly addNameRange     '2.2.5',
+560 silly addNameRange     '2.2.6',
+560 silly addNameRange     '2.2.8',
+560 silly addNameRange     '2.3.0',
+560 silly addNameRange     '2.3.1',
+560 silly addNameRange     '2.3.2',
+560 silly addNameRange     '2.3.3',
+560 silly addNameRange     '2.3.4',
+560 silly addNameRange     '2.4.0',
+560 silly addNameRange     '2.4.1',
+560 silly addNameRange     '2.4.2',
+560 silly addNameRange     '2.4.3',
+560 silly addNameRange     '2.4.4',
+560 silly addNameRange     '2.4.5',
+560 silly addNameRange     '2.5.0',
+560 silly addNameRange     '2.5.1',
+560 silly addNameRange     '2.5.2' ] ]
+561 silly addNamed rimraf@2.2.8
+562 verbose addNamed "2.2.8" is a plain semver version for rimraf
+563 silly addNameRange number 2 { name: 'findup-sync', range: '>=0.3.0 <0.4.0', hasData: true }
+564 silly addNameRange versions [ 'findup-sync',
+564 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.2.0', '0.2.1', '0.3.0' ] ]
+565 silly addNamed findup-sync@0.3.0
+566 verbose addNamed "0.3.0" is a plain semver version for findup-sync
+567 verbose afterAdd /Users/markdo/.npm/minimatch/3.0.0/package/package.json written
+568 silly addNameRange number 2 { name: 'glob', range: '>=7.0.0 <7.1.0', hasData: true }
+569 silly addNameRange versions [ 'glob',
+569 silly addNameRange   [ '1.1.0',
+569 silly addNameRange     '2.0.9',
+569 silly addNameRange     '2.0.8',
+569 silly addNameRange     '2.0.7',
+569 silly addNameRange     '2.1.0',
+569 silly addNameRange     '3.0.0',
+569 silly addNameRange     '3.0.1',
+569 silly addNameRange     '3.1.0',
+569 silly addNameRange     '3.1.1',
+569 silly addNameRange     '3.1.2',
+569 silly addNameRange     '3.1.3',
+569 silly addNameRange     '3.1.4',
+569 silly addNameRange     '3.1.5',
+569 silly addNameRange     '3.1.6',
+569 silly addNameRange     '3.1.7',
+569 silly addNameRange     '3.1.9',
+569 silly addNameRange     '3.1.10',
+569 silly addNameRange     '3.1.11',
+569 silly addNameRange     '3.1.12',
+569 silly addNameRange     '3.1.13',
+569 silly addNameRange     '3.1.14',
+569 silly addNameRange     '3.1.15',
+569 silly addNameRange     '3.1.16',
+569 silly addNameRange     '3.1.17',
+569 silly addNameRange     '3.1.18',
+569 silly addNameRange     '3.1.19',
+569 silly addNameRange     '3.1.20',
+569 silly addNameRange     '3.1.21',
+569 silly addNameRange     '3.2.0',
+569 silly addNameRange     '3.2.1',
+569 silly addNameRange     '3.2.3',
+569 silly addNameRange     '3.2.4',
+569 silly addNameRange     '3.2.5',
+569 silly addNameRange     '3.2.6',
+569 silly addNameRange     '3.2.7',
+569 silly addNameRange     '3.2.8',
+569 silly addNameRange     '3.2.9',
+569 silly addNameRange     '3.2.10',
+569 silly addNameRange     '3.2.11',
+569 silly addNameRange     '4.0.0',
+569 silly addNameRange     '4.0.1',
+569 silly addNameRange     '4.0.2',
+569 silly addNameRange     '4.0.3',
+569 silly addNameRange     '4.0.4',
+569 silly addNameRange     '4.0.5',
+569 silly addNameRange     '4.0.6',
+569 silly addNameRange     '4.1.2-beta',
+569 silly addNameRange     '4.1.2',
+569 silly addNameRange     '4.1.3',
+569 silly addNameRange     '4.1.4',
+569 silly addNameRange     '4.1.5',
+569 silly addNameRange     '4.1.6',
+569 silly addNameRange     '4.2.0',
+569 silly addNameRange     '4.2.1',
+569 silly addNameRange     '4.2.2',
+569 silly addNameRange     '4.3.0',
+569 silly addNameRange     '4.3.1',
+569 silly addNameRange     '4.3.2',
+569 silly addNameRange     '4.3.3',
+569 silly addNameRange     '4.3.4',
+569 silly addNameRange     '4.3.5',
+569 silly addNameRange     '4.4.0',
+569 silly addNameRange     '4.4.2',
+569 silly addNameRange     '4.5.0',
+569 silly addNameRange     '5.0.0',
+569 silly addNameRange     '4.5.1',
+569 silly addNameRange     '5.0.1',
+569 silly addNameRange     '4.5.2',
+569 silly addNameRange     '5.0.2',
+569 silly addNameRange     '4.5.3',
+569 silly addNameRange     '5.0.3',
+569 silly addNameRange     '5.0.4',
+569 silly addNameRange     '5.0.5',
+569 silly addNameRange     '5.0.6',
+569 silly addNameRange     '5.0.7',
+569 silly addNameRange     '5.0.9',
+569 silly addNameRange     '5.0.10',
+569 silly addNameRange     '5.0.11',
+569 silly addNameRange     '5.0.12',
+569 silly addNameRange     '5.0.13',
+569 silly addNameRange     '5.0.14',
+569 silly addNameRange     '5.0.15',
+569 silly addNameRange     '6.0.1',
+569 silly addNameRange     '6.0.2',
+569 silly addNameRange     '6.0.3',
+569 silly addNameRange     '6.0.4',
+569 silly addNameRange     '7.0.0' ] ]
+570 silly addNamed glob@7.0.0
+571 verbose addNamed "7.0.0" is a plain semver version for glob
+572 silly addNameRange number 2 { name: 'grunt-cli', range: '>=1.2.0 <1.3.0', hasData: true }
+573 silly addNameRange versions [ 'grunt-cli',
+573 silly addNameRange   [ '0.1.0',
+573 silly addNameRange     '0.1.1',
+573 silly addNameRange     '0.1.2',
+573 silly addNameRange     '0.1.3',
+573 silly addNameRange     '0.1.4',
+573 silly addNameRange     '0.1.5',
+573 silly addNameRange     '0.1.6',
+573 silly addNameRange     '0.1.7',
+573 silly addNameRange     '0.1.8',
+573 silly addNameRange     '0.1.9',
+573 silly addNameRange     '0.1.10',
+573 silly addNameRange     '0.1.11',
+573 silly addNameRange     '0.1.12',
+573 silly addNameRange     '0.1.13' ] ]
+574 silly addNameRange number 2 { name: 'coffee-script',
+574 silly addNameRange   range: '>=1.10.0 <1.11.0',
+574 silly addNameRange   hasData: true }
+575 silly addNameRange versions [ 'coffee-script',
+575 silly addNameRange   [ '0.7.0',
+575 silly addNameRange     '0.7.1',
+575 silly addNameRange     '0.7.2',
+575 silly addNameRange     '0.9.0',
+575 silly addNameRange     '0.9.1',
+575 silly addNameRange     '0.9.2',
+575 silly addNameRange     '0.9.3',
+575 silly addNameRange     '0.9.4',
+575 silly addNameRange     '0.9.5',
+575 silly addNameRange     '0.9.6',
+575 silly addNameRange     '1.0.0',
+575 silly addNameRange     '1.0.1',
+575 silly addNameRange     '1.1.0',
+575 silly addNameRange     '1.1.1',
+575 silly addNameRange     '1.1.2',
+575 silly addNameRange     '1.1.3',
+575 silly addNameRange     '1.2.0',
+575 silly addNameRange     '1.3.0',
+575 silly addNameRange     '1.3.1',
+575 silly addNameRange     '1.3.2',
+575 silly addNameRange     '1.3.3',
+575 silly addNameRange     '1.4.0',
+575 silly addNameRange     '1.5.0',
+575 silly addNameRange     '1.6.0',
+575 silly addNameRange     '1.6.1',
+575 silly addNameRange     '1.6.2',
+575 silly addNameRange     '1.6.3',
+575 silly addNameRange     '1.7.0',
+575 silly addNameRange     '1.7.1',
+575 silly addNameRange     '1.8.0',
+575 silly addNameRange     '1.9.0',
+575 silly addNameRange     '1.9.1',
+575 silly addNameRange     '1.9.2',
+575 silly addNameRange     '1.9.3',
+575 silly addNameRange     '1.10.0' ] ]
+576 silly addNamed coffee-script@1.10.0
+577 verbose addNamed "1.10.0" is a plain semver version for coffee-script
+578 verbose afterAdd /Users/markdo/.npm/iconv-lite/0.4.13/package/package.json written
+579 verbose afterAdd /Users/markdo/.npm/exit/0.1.2/package/package.json written
+580 verbose afterAdd /Users/markdo/.npm/path-is-absolute/1.0.0/package/package.json written
+581 verbose afterAdd /Users/markdo/.npm/dateformat/1.0.12/package/package.json written
+582 verbose afterAdd /Users/markdo/.npm/js-yaml/3.5.3/package/package.json written
+583 silly cache afterAdd findup-sync@0.3.0
+584 verbose afterAdd /Users/markdo/.npm/findup-sync/0.3.0/package/package.json not in flight; writing
+585 silly cache afterAdd eventemitter2@0.4.14
+586 verbose afterAdd /Users/markdo/.npm/eventemitter2/0.4.14/package/package.json not in flight; writing
+587 silly cache afterAdd nopt@3.0.6
+588 verbose afterAdd /Users/markdo/.npm/nopt/3.0.6/package/package.json not in flight; writing
+589 silly cache afterAdd rimraf@2.2.8
+590 verbose afterAdd /Users/markdo/.npm/rimraf/2.2.8/package/package.json not in flight; writing
+591 silly cache afterAdd glob@7.0.0
+592 verbose afterAdd /Users/markdo/.npm/glob/7.0.0/package/package.json not in flight; writing
+593 silly cache afterAdd coffee-script@1.10.0
+594 verbose afterAdd /Users/markdo/.npm/coffee-script/1.10.0/package/package.json not in flight; writing
+595 verbose afterAdd /Users/markdo/.npm/eventemitter2/0.4.14/package/package.json written
+596 verbose afterAdd /Users/markdo/.npm/findup-sync/0.3.0/package/package.json written
+597 verbose afterAdd /Users/markdo/.npm/nopt/3.0.6/package/package.json written
+598 verbose afterAdd /Users/markdo/.npm/glob/7.0.0/package/package.json written
+599 verbose afterAdd /Users/markdo/.npm/rimraf/2.2.8/package/package.json written
+600 verbose afterAdd /Users/markdo/.npm/coffee-script/1.10.0/package/package.json written
+601 verbose about to build /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+602 verbose unlock done using /Users/markdo/.npm/_locks/grunt-8928880aeae6e191.lock for /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+603 verbose stack Error: connect ETIMEDOUT
+603 verbose stack     at exports._errnoException (util.js:746:11)
+603 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:983:19)
+604 verbose cwd /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
+605 error Darwin 14.1.0
+606 error argv "node" "/usr/local/bin/npm" "install" "grunt"
+607 error node v0.12.0
+608 error npm  v2.11.1
+609 error code ETIMEDOUT
+610 error errno ETIMEDOUT
+611 error syscall connect
+612 error network connect ETIMEDOUT
+612 error network This is most likely not a problem with npm itself
+612 error network and is related to network connectivity.
+612 error network In most cases you are behind a proxy or have bad network settings.
+612 error network
+612 error network If you are behind a proxy, please make sure that the
+612 error network 'proxy' config is set properly.  See: 'npm help config'
+613 verbose exit [ 1, true ]
+614 verbose unbuild node_modules/grunt
+615 info preuninstall grunt@1.0.1
+616 info uninstall grunt@1.0.1
+617 verbose unbuild rmStuff grunt@1.0.1 from /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules
+618 silly gentlyRm /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/.bin/grunt is being gently removed
+619 silly gentlyRm verifying /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction is an npm working directory
+620 silly gentlyRm containing path /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction is under npm's control, in /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
+621 silly gentlyRm deletion target /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/.bin/grunt is under /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
+622 verbose gentlyRm vacuuming from /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/.bin/grunt up to /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
+623 info postuninstall grunt@1.0.1
+624 silly gentlyRm /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt is being purged from base /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
+625 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+626 silly vacuum-fs purging /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules/grunt
+627 silly vacuum-fs removing /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction/node_modules
+628 silly vacuum-fs finished vacuuming up to /Users/markdo/Desktop/Projects/rbs/wp-content/themes/construction
