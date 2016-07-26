@@ -72,7 +72,7 @@ class WpvTemplates {
 		$layout_type = WpvTemplates::get_layout();
 
 		if ( $layout_type == 'left-only' || $layout_type == 'left-right' ): ?>
-			<aside class="<?php echo esc_attr( apply_filters( 'wpv_left_sidebar_class', 'left', $layout_type ) ) ?>">
+			<aside class="test <?php echo esc_attr( apply_filters( 'wpv_left_sidebar_class', 'left', $layout_type ) ) ?>">
 				<?php WpvSidebars::get_instance()->get_sidebar( 'left' ); ?>
 			</aside>
 		<?php endif;
